@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:text="@string/qlt"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mã :"
+            android:textSize="9pt"
+            android:layout_weight="0.5">
+        </TextView>
+        <EditText
+            android:id="@+id/edtmabill"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="Nhập Mã Bill"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày :"
+            android:textSize="9pt"
+            android:layout_weight="0.7">
+        </TextView>
+
+        <TextView
+            android:id="@+id/edtngaylap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Chọn ngày"
+            android:textSize="9pt">
+
+            <requestFocus />
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:text="Nhà Thuốc:"
+            >
+
+        </TextView>
+        <Spinner
+            android:id="@+id/spinPharma"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:text="Loại Thuốc:"
+            >
+
+        </TextView>
+        <Spinner
+            android:id="@+id/spinMedical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Đơn Giá :"
+            android:textSize="9pt"
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:id="@+id/tvdonGia"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="9pt"
+            android:inputType="numberDecimal"
+            android:textStyle="bold"
+            android:textColor="@color/colorID"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnpopupaddbill"
+            android:layout_width="0dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/backgroudbtnadd"
+            android:layout_weight="1"
+            android:text="@string/btnADD"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btnpopupcancelbill"
+            android:layout_width="0dp"
+            android:background="@drawable/backgroudbtndelete"
+            android:layout_weight="1"
+            android:text="@string/btnCancel"
+            android:layout_marginLeft="15dp"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+            android:layout_height="match_parent">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

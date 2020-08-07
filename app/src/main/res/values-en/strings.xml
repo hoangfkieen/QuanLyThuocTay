@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuanLyThuocTay</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="savepass">Save Password</string>
+    <string name="name" >Drug Management</string>
+    <string name="qlnt" >Pharmacy Management</string>
+    <string name="qlt" >Medicines Management</string>
+    <string name="qlhd" >Bill</string>
+    <string name="bxh" >Weekly Charts</string>
+    <string name="blstPharma">Pharmacy List</string>
+    <string name="title_activity_maps" >map</string>
+    <string name="tv">Vietnamese</string>
+    <string name="ta">English</string>
+    <string name="chonnn">Select Language</string>
+    <string name="error1">Please enter your full account and password!</string>
+    <string name="error2">The account or password is incorrect!</string>
+    <string name="btnADD">ADD NEW</string>
+    <string name="btnEDIT">EDIT</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="btnCancel">CANCEL</string>
+    <string name="changeNN">Transfer language successfully!</string>
+    <string name="ifnot">If not yet,CREATE ACCOUNT</string>
+    <string name="register">Register</string>
+    <string name="repass">Retype Password</string>
+</resources>

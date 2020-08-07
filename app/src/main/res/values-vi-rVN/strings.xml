@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuanLyThuocTay</string>
+    <string name="name" >Quản Lý Thuốc Tây</string>
+    <string name="qlnt" >Quản Lý Nhà Thuốc</string>
+    <string name="qlt" >Quản Lý Thuốc</string>
+    <string name="qlhd" >Hóa Đơn</string>
+    <string name="bxh" >Bảng Xếp Hạng Tuần</string>
+    <string name="blstPharma" >Danh Sách Nhà Thuốc</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="user">Tên Đăng Nhập</string>
+    <string name="pass">Mật Khẩu</string>sss
+    <string name="login">Đăng Nhập</string>
+    <string name="savepass">Ghi nhớ mật khẩu</string>
+    <string name="tv">Tiếng Việt</string>
+    <string name="ta">Tiếng Anh</string>
+    <string name="chonnn">Chọn ngôn ngữ</string>
+    <string name="error1">Vui Lòng nhập đầy đủ tài khoản và mật khẩu !</string>
+    <string name="error2">Tài khoản hoặc mật khẩu không chính xác !</string>
+    <string name="btnDelete">XÓA</string>
+    <string name="btnEDIT">SỬA</string>
+    <string name="btnADD">THÊM MỚI</string>
+    <string name="btnCancel">HỦY</string>
+    <string name="changeNN">Chuyển ngôn ngữ thành công !</string>
+    <string name="ifnot">Nếu chưa có , TẠO TÀI KHOẢN</string>
+    <string name="register">Đăng Ký</string>
+    <string name="repass">Nhập Lại Mật Khẩu</string>
+</resources>

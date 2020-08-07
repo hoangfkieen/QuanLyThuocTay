@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLoading"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="top"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_arrow_back_24">
+
+        </Button>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="10pt"
+            android:text="@string/qlnt">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            android:padding="5dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_weight="6">
+
+            <ListView
+                android:id="@+id/lstNT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10dp"
+                >
+            </ListView>
+
+        </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/backgroudbtnadd"
+                android:id="@+id/btnadd"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:text="@string/btnADD"
+                android:layout_weight="1"></Button>
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/backgroudbtnedit"
+                android:id="@+id/btnedit"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:text="@string/btnEDIT"
+                android:layout_weight="1"></Button>
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/backgroudbtndelete"
+                android:id="@+id/btndelete"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:text="@string/btnDelete"
+                android:layout_weight="1"></Button>
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:background="@drawable/map"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></ImageButton>
+
+
+    </LinearLayout>
+
+</LinearLayout>

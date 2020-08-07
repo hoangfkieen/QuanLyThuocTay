@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:text="@string/qlnt"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mã :"
+        android:textSize="9pt"
+        android:layout_weight="0.5">
+    </TextView>
+    <EditText
+        android:id="@+id/edtmaNT"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:hint="Nhập Mã Nhà Thuốc"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tên :"
+            android:textSize="9pt"
+            android:layout_weight="0.5">
+        </TextView>
+        <EditText
+            android:id="@+id/edttenNT"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="Nhập Tên Nhà Thuốc"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ :"
+            android:textSize="9pt"
+            android:layout_weight="1">
+        </TextView>
+        <EditText
+            android:id="@+id/edtDiaChi"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="Nhập Địa Chỉ Nhà Thuốc"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnpopupadd"
+            android:layout_width="0dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/backgroudbtnadd"
+            android:layout_weight="1"
+            android:text="@string/btnADD"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btnpopupedit"
+            android:layout_width="0dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/backgroudbtnedit"
+            android:layout_weight="1"
+            android:text="@string/btnEDIT"
+            android:visibility="gone"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btnpopupcancel"
+            android:layout_width="0dp"
+            android:background="@drawable/backgroudbtndelete"
+            android:layout_weight="1"
+            android:text="@string/btnCancel"
+            android:layout_marginLeft="15dp"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+            android:layout_height="match_parent">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
