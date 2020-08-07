@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="11pt"
-        android:text="@string/qlt"
+        android:text="@string/qlhd"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     <LinearLayout
         android:layout_marginTop="30dp"
